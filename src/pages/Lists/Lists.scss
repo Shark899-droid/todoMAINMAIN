@@ -1,0 +1,36 @@
+.lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .add-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  span {
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgb(160, 160, 160);
+    font-weight: bolder;
+  }
+}
+.list-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  .list-container-grid {
+    width: 90%;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    place-self: center;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+  }
+}

@@ -1,0 +1,40 @@
+.single-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    margin-top: 5rem;
+
+    button {
+      height: 2rem;
+      width: 5rem;
+      border: none;
+      background-color: lightgray;
+      color: black;
+      border-radius: 5px;
+    }
+  }
+
+  .single-item-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+      width: 20px;
+      height: 20px;
+      margin-right: 20px;
+    }
+
+    span {
+      font-size: 20px;
+    }
+  }
+}

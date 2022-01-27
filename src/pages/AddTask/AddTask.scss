@@ -1,0 +1,64 @@
+.tasks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .back {
+    position: absolute;
+    top: -50px;
+    right: -100px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      margin-top: 30px;
+      width: 5rem;
+      height: 2rem;
+      background-color: gray;
+      color: black;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+
+      label {
+        font-size: 20px;
+      }
+      input {
+        margin-top: 10px;
+        width: 300px;
+        height: 2rem;
+      }
+      .item-container {
+        position: relative;
+      }
+      .add-item {
+        position: absolute;
+        top: 70%;
+        bottom: 50%;
+        margin: auto;
+        right: -60px;
+        border: 2px solid lightgray;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    }
+  }
+}

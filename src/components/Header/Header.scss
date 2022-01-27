@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  position: relative;
+
+  .first {
+    font-weight: 900;
+  }
+  .second {
+    font-weight: normal;
+    margin-left: 5px;
+    color: gray;
+  }
+  .Hr {
+    position: absolute;
+    border: none;
+    background-color: lightgrey;
+    width: 45vw;
+    height: 1px;
+    top: 50%;
+
+    &.right {
+      left: 0;
+    }
+
+    &.left {
+      right: 0;
+    }
+  }
+}
